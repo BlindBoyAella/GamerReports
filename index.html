@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Gamer Reports</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+    <section class = "header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href=>HOME</a></li>
+                    <li><a href=>UPCOMING</a></li>
+                    <li><a href=>HARDWARE</a></li>
+                    <li><a href=>ABOUT US</a></li>
+                    <li><a href=>CONTACT</a></li>
+                </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <div class="text-box">
+           <h1>GamerReports is now live!</h1>
+           <p>GamerReports is a gaming news website that specalises in <br> 
+            providing you with the latest in upcoming games, newest hardware and more! <br>
+            We are recognised by developers like; RockstarGames, <br>
+            Ubisoft, Sony, Xbox and other big names. </p>
+            <a href="" class="hero-btn">Explore Our About Us To Know More.</a>
+       </div>
+    </section>
+
+<!-----UPCOMING----->
+<section class="upcoming">
+    <h1>Upcoming.</h1>
+
+        <div class="row">
+            <div class="upcoming-col">
+                <h3>Ghostwire:Tokyo</h3>
+                <p> Ghostwire: Tokyo has many gamers eager to play it, since <br> 
+                    it's reveal at E3 2019. Ghostwire; Tokyo is a first person action-adventure <br>
+                    single-player game that is being developed by Tango Gameworks known for their previous <br>
+                    games, The Evil Within and The Evil Within 2 which left gamers wanting more. <br>
+                    <br>
+                    You are Akito, who is possessed by a spirit named KK who. The possession leads to <br>
+                    Akito obtaining supernatural powersm being able to take on Tokyos newest threat. <br>
+                    The Visitors. Most of Tokyo's citizens have dissapeared once these Visitors arrived <br>
+                    wreaking havoc in the city. 
+                <br> <br>
+                    Ghostwire: Tokyo is set to release on March 25th 2022, on a one year timed exclusive <br>
+                    for the PlayStation 5 console, and Microsoft Windows.</p>
+
+        </div>
+        <div class="upcoming-col">
+                <h3>STAR WARS: The Force Unleashed</h3>
+                <p> Star Wars: The Force Unleased is a remastered version of the 2008 game that <br>
+                    released for the PlayStation 2 & PlayStation 3, Xbox 360 and WII, later being put on IOS devices. <br>
+                    <br> Using Force abilities and lightsaber combos to do Darth Vader's bidding, <br>
+                    you take on the role of Starkiller, Darth Vader's apprentice trained to <br>
+                    hunt down and destroy the Jedi. Like the 2008 release on the Nintendo Wii™, <br>
+                    play with the joycon controller to control the game.
+                    <br> <br>
+                    STAR WARS: The Force Unleashed will be released on the Ninetendo Switch <br>
+                    on th 20th of April this year.</p>    
+        </div> 
+        <div class="upcoming-col">
+            <h3>Sniper Elite 5</h3>
+            <p>The latest title in the award-winning series, Sniper Elite 5, features unmatched <br>
+                sniping, tactical third-person combat, and an improved kill cam. Battle across <br>
+                the most immersive maps yet, as you explore some real-world locations in stunning detail, <br>
+                This is combined with an improved navigation system that lets you explore more than ever. <br> <br>
+                In 1944, as part of a covert US Army operation aimed at weakening the Atlanttikwall <br>
+                fortifications in Brittany, US marksman Karl Fairburne makes contact with a group of French <br>
+                resistance members.<br> <br>
+                Sniper Elite 5 is set to release on May the 26th for PlayStation 4, Xbox One, PlayStation 5, <br>
+                Xbox Series X and Series S, Microsoft Windows</p>    
+    </div> 
+                       
+        </div>
+</section>
+<!----HARDWARE---->
+<section class="hardware">
+    <h1>Hardware.</h1>
+    
+    <div class="row">
+        <div class="hardware-col">
+            <img src="images/consoles.jpg">
+            <div class="layer">
+                <h3>Consoles</h3>   
+             </div>               
+        </div>
+        <div class="hardware-col">
+            <img src="images/pc.jpg">
+            <div class="layer">
+                <h3>PCs</h3>   
+             </div>               
+        </div>
+        <div class="hardware-col">
+            <img src="images/handheld.jpg">
+            <div class="layer">
+                <h3>Handhelds</h3>   
+             </div>               
+        </div>
+    </div>
+
+</section>
+
+
+<!----JavaScript for Toggle Menu----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
